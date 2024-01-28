@@ -204,7 +204,7 @@ li a:hover:not(.active) {
 .p1 {
     position: absolute;
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 16px;
 
     margin-top: -110px;
@@ -251,6 +251,20 @@ li a:hover:not(.active) {
     margin-left: -90px;
 }
 
+.btn3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d41919;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: -90px;
+}
+
 .p3 {
     position: absolute;
 
@@ -284,19 +298,19 @@ li a:hover:not(.active) {
 
 .Gallery1 {
     height: 200px;
-    width: 390px;
+    width: 400px;
     padding-left: 70px;
 }
 
 .Gallery2 {
     height: 200px;
-    width: 390px;
+    width: 400px;
     padding-left: 70px;
 }
 
 .Gallery3 {
     height: 200px;
-    width: 390px;
+    width: 400px;
     padding-left: 70px;
 }
 
@@ -304,7 +318,7 @@ li a:hover:not(.active) {
 
     padding-top: 10px;
     margin-left: 50px;
-    display: inline-flexbox;
+
 
 }
 
