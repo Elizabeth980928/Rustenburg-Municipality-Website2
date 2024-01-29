@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+  
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>The Rustenburg Local Municipality was established by North West Provincial Gazette No 5574 dated 29 September 2000 in terms of Section 12 of the Municipal Structures Act, Act 117 of 1998. In accordance with this notice, existing municipalities were disestablished and the new Rustenburg Local Municipality came into being.
+    The Rustenburg Local Municipality was established as a Category B municipality with an Executive Mayor and Ward Committees. After a major restructuring and transformation process during 2001/2002, the Rustenburg Local Municipality is entering its fourth year of operation in its current framework. The Rustenburg Local Municipality consist of two interlinked organisational streams; the one providing political leadership and governance and the other performing the operational and administrative functions.
+    Rustenburg Local Municipality is governed by 72 Councillors. A total of 36 councillors are elected on ward representation, whilst 36 are from a system of proportional representation. The Ward Councillors are responsible for conveying local concerns and issues to the Council. The Council, the city’s highest decision making body meets once a month.
+    Vision
+    “A world class city where all communities enjoy a high quality of life”.
+    Mission Statement
+    “To continuously improve the quality of life, economic growth and eradicate poverty through best practice, sustainability and inclusive governance”.
+    Municipal Priorities
+    Efficient provision of quality basic service and infrastructure within a well planned spatial structure
+    Drive economic growth and job creation
+    Ensure municipal financial viability and management
+    Maintain clean, green, safe and healthy municipal environment for all
+    Transform and maintain a vibrant and sustainable rural development
+    Uphold good governance and public participation principles
+    Drive optimal institutional development, transformation and capacity building</p>
+</div>
+
+
+
+</body>
+</html>

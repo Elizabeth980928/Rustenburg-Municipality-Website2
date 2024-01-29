@@ -208,7 +208,7 @@ li a:hover:not(.active) {
     font-size: 16px;
 
     margin-top: -110px;
-    margin-left: 80px;
+    margin-left: 20px;
 
 }
 
@@ -233,7 +233,7 @@ li a:hover:not(.active) {
     font-size: 16px;
 
     margin-top: -110px;
-    margin-left: 80px;
+    margin-left: 20px;
 
 }
 
@@ -272,9 +272,36 @@ li a:hover:not(.active) {
     font-size: 16px;
 
     margin-top: -110px;
-    margin-left: 80px;
+    margin-left: 20px;
 
 }
+
+
+.btn4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #d41919;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: -90px;
+}
+
+.p4 {
+    position: absolute;
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+    margin-top: -110px;
+    margin-left: 20px;
+
+}
+
 
 .btn:hover {
     background-color: black;
@@ -288,6 +315,13 @@ li a:hover:not(.active) {
     background-color: black;
 }
 
+.btn3:hover {
+    background-color: black;
+}
+.btn4:hover {
+    background-color: black;
+}
+
 .viewMoreIcon {
     padding-left: 23px;
     padding-top: 10px;
@@ -298,20 +332,28 @@ li a:hover:not(.active) {
 
 .Gallery1 {
     height: 200px;
-    width: 400px;
-    padding-left: 70px;
+    width: 300px;
+    padding-left: 10px;
 }
 
 .Gallery2 {
     height: 200px;
-    width: 400px;
-    padding-left: 70px;
+    width: 300px;
+    padding-left: 10px;
 }
 
 .Gallery3 {
     height: 200px;
-    width: 400px;
-    padding-left: 70px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+
+.Gallery4 {
+    height: 200px;
+    width: 300px;
+    padding-left: 10px;
+    margin-right: 20px;
 }
 
 .column {
@@ -441,7 +483,27 @@ div.scroll-container img {
 
 .other {
     background-color: #ffffff;
-    height: 500px;
+    height: 220px;
+  
+}
+
+.containerOther{
+  
+    height: 400px;
+    width: 700px;
+   margin-top: 90px;
+   margin-left: 50px;
+}
+
+.btnTwitter{
+ margin-left: 250px;
+ 
+}
+
+.HeaderEvents{
+ color: rgb(85, 168, 62);
+ padding-left:40px;
+ font-size: 25px;
 }
 
 
@@ -461,12 +523,8 @@ div.scroll-container img {
     margin-top: -50px;
 }
 
-/* other */
 
-.other {
-    background-color: #ffffff;
-    height: 500px;
-}
+
 
 
 
@@ -816,3 +874,91 @@ div.scroll-container img {
     color: #ff0000;
      
  }
+
+ 
+ /* events */
+
+ .cardEvents {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .buttonEvents {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
+
+ 
+
+  .vl {
+    border-left: 1px solid rgb(149, 157, 149);
+    height: 140px;
+    position: absolute;
+    left: 35%;
+    margin-top: -100px;
+}
+    
+    
+
+    .vl1 {
+        border-left: 1px solid rgb(149, 157, 149);
+        height: 140px;
+        position: absolute;
+        left: 50%;
+        margin-top: -100px;
+    
+    }
+    
+    .vl2 {
+        border-left: 1px solid rgb(149, 157, 149);
+        height: 140px;
+        position: absolute;
+        left: 50%;
+        margin-top: -100px;
+    
+    }
+
+     .vl3 {
+        border-left: 1px solid rgb(149, 157, 149);
+        height: 140px;
+        position: absolute;
+        left: 64%;
+        margin-top: -100px;
+    
+    }
+
+    .vl4 {
+        border-left: 1px solid rgb(149, 157, 149);
+        height: 140px;
+        position: absolute;
+        left: 66%;
+        margin-top: -100px;
+    
+    } 
+
