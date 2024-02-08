@@ -233,7 +233,7 @@ li a:hover:not(.active) {
 
     width: 200px;
     margin-left: 1305px;
-    margin-bottom: -220px;
+    margin-bottom: 50px;
 
     background-color: rgba(150, 141, 141, 0.5);
 }
@@ -596,7 +596,7 @@ div.scroll-container img {
 
 .ContainerTourism {
     background-color: #ffffff;
-    height: 1190px;
+    height: 1450px;
     width: 1470px;
     position: absolute;
     margin-top: 90px;
@@ -608,7 +608,7 @@ div.scroll-container img {
 .LineTourism {
     margin-top: 20px;
    margin-left: -130px;
-    width: 1060px;
+    width: 1410px;
 
     border: 2px solid white;
 
@@ -689,7 +689,7 @@ div.gallery {
     background-color: rgb(50, 49, 49);
     width: 1510px;
     border-top: 1px solid #000000;
-    margin-top: 1610px;
+    margin-top: 1850px;
 }
 
 .Line {
