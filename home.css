@@ -1,5 +1,70 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+.containerHeading1{
+  height: 100px;
+  width: 1513px;
+
+    
+}
+
+.LineBoxHeading1 {
+    
+    margin-left: 1125px;
+    width: 400px;
+
+    border: 5px solid brown;
+
+}
+
+.diagnalBox {
+    background-color: brown;
+    width: 400px;
+    height: 360px;
+
+    margin-left: 0px;
+
+    clip-path: polygon(0 0%, 70% 0, 100% 100%, 0% 100%);
+
+}
+
+.diagnalBox2 {
+    background-color: brown;
+    width: 400px;
+    height: 340px;
+    margin-top: -365px;
+    margin-left: 1115px;
+
+    clip-path: polygon(70% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+
+.backgroundImageDiag{
+    height: 350px;
+    width: 989px;
+    margin-left: 280px;
+    margin-top: -347px;
+    box-shadow:  7px 0px brown;
+
+  
+
+}
+
+.backgroundImageDiag{
+    border-bottom-right-radius: 450px 500px;
+  overflow: hidden; 
+
+}
+
+.LineBox {
+    margin-top: -10px;
+    margin-left: 12px;
+    width: 40px;
+
+    border: 2px solid white;
 
 }
 
@@ -49,10 +114,10 @@ body {
 
 
 .containerMenu {
-    width: 1449px;
+
     height: 400px;
     flex-shrink: 0;
-    background-color: blanchedalmond;
+
 }
 
 
@@ -72,17 +137,17 @@ body {
 
 .menu {
     position: absolute;
-    top: 370px;
-    left: 120px;
+    top: 490px;
+    left: 50px;
     width: 793px;
     height: 132px;
     flex-shrink: 0;
 }
 
 .topnav1 {
-    background-color: #BB3A3A;
+    background-color: brown;
     overflow: hidden;
-    width: 1200px;
+    width: 1400px;
 }
 
 
@@ -110,6 +175,9 @@ body {
 .menu2 {
     height: 90px;
     background-color: white;
+
+    
+
 }
 
 .list1 {
@@ -151,15 +219,54 @@ li a:hover:not(.active) {
 
 }
 
+
+.MainPage {
+
+    width: 1300px;
+    background-color: #D9D9D9;
+
+}
+
+
+
+.downloads {
+
+    width: 200px;
+    margin-left: 1305px;
+    margin-bottom: -220px;
+
+    background-color: rgba(150, 141, 141, 0.5);
+}
+
+
+
+.DownloadsHeading {
+    margin-bottom: 1927px;
+    margin-left: 40px;
+    color: brown;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.DownloadsContainer {
+
+    height: 500px;
+    background-color: #d41919;
+}
+
+
 .containerNews {
 
-    height: 360px;
-    width: 100%;
+    height: 350px;
+    width: 1300px;
     background-color: #D9D9D9;
+
 }
 
 .HeadingNews {
 
+    margin-top: 5px;
     padding-left: 20px;
     color: #BB3A3A;
 
@@ -175,14 +282,14 @@ li a:hover:not(.active) {
     background-color: #D9D9D9;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     font-style: normal;
-    padding: 10px 18px;
-    margin-left: 1200px;
+    padding: 8px 10px;
+    margin-left: 1100px;
     border: #BB3A3A 2px solid;
-    height: 50px;
-    width: 160px;
-    margin-top: -55px;
+    height: 40px;
+    width: 100px;
+    margin-top: -65px;
 }
 
 .btn {
@@ -205,10 +312,10 @@ li a:hover:not(.active) {
     position: absolute;
 
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 14px;
 
     margin-top: -110px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -219,21 +326,21 @@ li a:hover:not(.active) {
     background-color: #d41919;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 5px 5px;
     border: none;
     cursor: pointer;
-    margin-top: 156px;
-    margin-left: -90px;
+    margin-top: 150px;
+    margin-left: -60px;
 }
 
 .p2 {
     position: absolute;
 
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 14px;
 
     margin-top: -110px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -244,11 +351,11 @@ li a:hover:not(.active) {
     background-color: #d41919;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 5px 5px;
     border: none;
     cursor: pointer;
     margin-top: 150px;
-    margin-left: -90px;
+    margin-left: -80px;
 }
 
 .btn3 {
@@ -258,21 +365,21 @@ li a:hover:not(.active) {
     background-color: #d41919;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 5px 5px;
     border: none;
     cursor: pointer;
     margin-top: 150px;
-    margin-left: -90px;
+    margin-left: -80px;
 }
 
 .p3 {
     position: absolute;
 
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 14px;
 
     margin-top: -110px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -284,21 +391,21 @@ li a:hover:not(.active) {
     background-color: #d41919;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    padding: 7px 10px;
+    padding: 5px 5px;
     border: none;
     cursor: pointer;
     margin-top: 150px;
-    margin-left: -90px;
+    margin-left: -60px;
 }
 
 .p4 {
     position: absolute;
 
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 14px;
 
     margin-top: -110px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
@@ -318,42 +425,43 @@ li a:hover:not(.active) {
 .btn3:hover {
     background-color: black;
 }
+
 .btn4:hover {
     background-color: black;
 }
 
-.viewMoreIcon {
-    padding-left: 23px;
-    padding-top: 10px;
-    height: 5px;
-    width: 5px;
 
-}
 
 .Gallery1 {
     height: 200px;
-    width: 300px;
-    padding-left: 10px;
+    width: 230px;
+
+    border: #ffffff 5px solid;
+
 }
 
 .Gallery2 {
     height: 200px;
-    width: 300px;
-    padding-left: 10px;
+    width: 230px;
+
+    margin-right: 20px;
+    border: #ffffff 5px solid;
 }
 
 .Gallery3 {
     height: 200px;
-    width: 300px;
-    padding-left: 10px;
+    width: 230px;
+    margin-right: 20px;
+    border: #ffffff 5px solid;
 }
 
 
 .Gallery4 {
     height: 200px;
-    width: 300px;
-    padding-left: 10px;
-    margin-right: 20px;
+    width: 230px;
+
+    border: #ffffff 5px solid;
+
 }
 
 .column {
@@ -374,17 +482,16 @@ li a:hover:not(.active) {
 }
 
 .ContainerGallery {
-    height: 320px;
-    width: 100%;
-   
-    background-color: #a50f0f;
-    background-image: url("https://www.mining-technology.com/wp-content/uploads/sites/19/2022/07/Image-1-Tharisa-Mine.jpg");
+    height: 20px;
+    width: 490px;
+
+    /* 
+    background-image: url("https://www.mining-technology.com/wp-content/uploads/sites/19/2022/07/Image-1-Tharisa-Mine.jpg"); */
 
 }
 
 .backgroundGallery {
     height: 120px;
-    width: 100%;
 
 }
 
@@ -393,12 +500,10 @@ li a:hover:not(.active) {
     height: 300px;
     width: 1000px;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 220px;
-    padding-left: 200px;
+    margin-top: -230px;
+    margin-left: 150px;
+    padding-left: 180px;
     box-shadow: 2px 2px 2px 2px #766f6f;
-
-
 }
 
 .pic1 {
@@ -445,6 +550,7 @@ li a:hover:not(.active) {
     font-size: 26px;
     font-style: normal;
     margin-left: -150px;
+    margin-top: 10px;
 
 
 }
@@ -463,6 +569,7 @@ li a:hover:not(.active) {
 }
 
 .pGallery {
+   
     margin-left: -150px;
 
 }
@@ -483,28 +590,79 @@ div.scroll-container img {
 
 .other {
     background-color: #ffffff;
-    height: 220px;
+    height: 100px;
+
+}
+
+.ContainerTourism {
+    background-color: #ffffff;
+    height: 1190px;
+    width: 1470px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding-left: 150px;
+    box-shadow: 1px 1px 2px 2px #dedcdc;
+}
+
+.LineTourism {
+    margin-top: 20px;
+   margin-left: -130px;
+    width: 1060px;
+
+    border: 2px solid white;
+
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
   
-}
-
-.containerOther{
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
   
-    height: 400px;
-    width: 700px;
-   margin-top: 90px;
-   margin-left: 50px;
-}
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.btnTwitter{
- margin-left: 250px;
- 
-}
 
-.HeaderEvents{
- color: rgb(85, 168, 62);
- padding-left:40px;
- font-size: 25px;
-}
 
 
 .viewMoreNews {
@@ -524,20 +682,19 @@ div.scroll-container img {
 }
 
 
-
-
-
-
 /* contact us///////////////////////////////////////////////////////// */
 .ContactUs {
 
     height: 590px;
     background-color: rgb(50, 49, 49);
+    width: 1510px;
+    border-top: 1px solid #000000;
+    margin-top: 1610px;
 }
 
 .Line {
     border-top: 1px solid #c4baba;
-    width: 280px;
+    width: 200px;
     padding-left: 110px;
     float: left;
     border-top: 1px solid #c4baba;
@@ -547,17 +704,19 @@ div.scroll-container img {
 .Line1 {
     margin-top: -10px;
     margin-left: 50px;
-    width: 1400px;
+    width: 1200px;
     color: white;
 
 }
 
+
+
 .AboutUsContact {
     background-color: rgb(50, 49, 49);
     height: 300px;
-    width: 200px;
+    width: 150px;
     color: white;
-    padding-bottom: 115px;
+    padding-bottom: 103px;
     padding-left: 30px;
 
 
@@ -566,9 +725,9 @@ div.scroll-container img {
 .ContactContactUs {
     background-color: rgb(50, 49, 49);
     height: 300px;
-    width: 200px;
+    width: 100px;
     color: white;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 
 }
 
@@ -577,7 +736,7 @@ div.scroll-container img {
     height: 300px;
     width: 200px;
     color: white;
-    padding-bottom: 115px;
+    padding-bottom: 105px;
 
 }
 
@@ -586,7 +745,7 @@ div.scroll-container img {
     height: 300px;
     width: 200px;
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 
 }
 
@@ -643,7 +802,7 @@ div.scroll-container img {
     width: 40px;
     padding-right: -200px;
     margin-bottom: 140px;
-    margin-left: 700px;
+    margin-left: 600px;
 
 
 }
@@ -666,8 +825,9 @@ div.scroll-container img {
 .FollowUs {
     color: white;
     margin-top: -160px;
-    margin-left: 980px;
+    margin-left: 800px;
     color: #c4baba;
+    font-weight: 100;
 
 
 }
@@ -696,7 +856,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 70px;
     margin-left: 70px;
@@ -704,14 +864,14 @@ div.scroll-container img {
 
 .dropbtn2 {
     margin-top: 30px;
-   
+
     display: flexbox;
     background-color: white;
     color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 120px;
     margin-left: 70px;
@@ -725,7 +885,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 110px;
     margin-left: 70px;
@@ -739,7 +899,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 90px;
     margin-left: 70px;
@@ -753,7 +913,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 75px;
     margin-left: 50px;
@@ -767,7 +927,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 80px;
     margin-left: 70px;
@@ -781,7 +941,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 90px;
     margin-left: 70px;
@@ -795,7 +955,7 @@ div.scroll-container img {
     padding: 20px;
     font-size: 16px;
     border: none;
- 
+
     height: 30px;
     width: 100px;
     margin-left: 70px;
@@ -841,56 +1001,61 @@ div.scroll-container img {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn1 {
-  color: #ff0000;  
+    color: #ff0000;
     height: 20px;
 }
 
 .dropdown:hover .dropbtn2 {
-  color: #ff0000;
-    
+    color: #ff0000;
+
 }
+
 .dropdown:hover .dropbtn3 {
-   color: #ff0000;
-    
+    color: #ff0000;
+
 }
+
 .dropdown:hover .dropbtn4 {
     color: #ff0000;
-    
+
 }
+
 .dropdown:hover .dropbtn5 {
-   color: #ff0000;
-    
+    color: #ff0000;
+
 }
+
 .dropdown:hover .dropbtn6 {
-   color: #ff0000;
-    
+    color: #ff0000;
+
 }
+
 .dropdown:hover .dropbtn7 {
-   color: #ff0000;
-    
+    color: #ff0000;
+
 }
 
 .dropdown:hover .dropbtn1 {
     color: #ff0000;
-     
- }
 
- 
- /* events */
+}
 
- .cardEvents {
+
+/* events */
+
+.cardEvents {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-  }
-  
-  .title {
+}
+
+.title {
     color: grey;
     font-size: 18px;
-  }
-  
-  .buttonEvents {
+}
+
+.buttonEvents {
     border: none;
     outline: 0;
     display: inline-block;
@@ -901,64 +1066,136 @@ div.scroll-container img {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
-  
-  .a {
+}
+
+.a {
     text-decoration: none;
     font-size: 22px;
     color: black;
-  }
-  
-  .button:hover, a:hover {
+}
+
+.button:hover,
+a:hover {
     opacity: 0.7;
-  }
-  
+}
 
- 
 
-  .vl {
+
+
+.vl {
     border-left: 1px solid rgb(149, 157, 149);
     height: 140px;
     position: absolute;
     left: 35%;
     margin-top: -100px;
 }
-    
-    
 
-    .vl1 {
-        border-left: 1px solid rgb(149, 157, 149);
-        height: 140px;
-        position: absolute;
-        left: 50%;
-        margin-top: -100px;
-    
+
+
+.vl1 {
+    border-left: 1px solid rgb(149, 157, 149);
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    margin-top: -100px;
+
+}
+
+.vl2 {
+    border-left: 1px solid rgb(149, 157, 149);
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    margin-top: -100px;
+
+}
+
+.vl3 {
+    border-left: 1px solid rgb(149, 157, 149);
+    height: 140px;
+    position: absolute;
+    left: 64%;
+    margin-top: -100px;
+
+}
+
+.vl4 {
+    border-left: 1px solid rgb(149, 157, 149);
+    height: 140px;
+    position: absolute;
+    left: 66%;
+    margin-top: -100px;
+
+}
+
+/* 
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+   */
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+
+
+/* Media queries */
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav1 a:not(:first-child) {
+        display: none;
     }
-    
-    .vl2 {
-        border-left: 1px solid rgb(149, 157, 149);
-        height: 140px;
-        position: absolute;
-        left: 50%;
-        margin-top: -100px;
-    
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav1.responsive {
+        position: relative;
     }
 
-     .vl3 {
-        border-left: 1px solid rgb(149, 157, 149);
-        height: 140px;
+    .topnav1.responsive .icon {
         position: absolute;
-        left: 64%;
-        margin-top: -100px;
-    
+        right: 0;
+        top: 0;
     }
 
-    .vl4 {
-        border-left: 1px solid rgb(149, 157, 149);
-        height: 140px;
-        position: absolute;
-        left: 66%;
-        margin-top: -100px;
-    
-    } 
+    .topnav1.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 
+    .topnav1.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav1.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topnav1.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+/* tweet */
