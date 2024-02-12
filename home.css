@@ -14,12 +14,12 @@ body {
     margin-left: 1125px;
     width: 400px;
 
-    border: 5px solid brown;
+    border: 5px solid #aa6e4c;
 
 }
 
 .diagnalBox {
-    background-color: brown;
+    background-color: #aa6e4c;
     width: 400px;
     height: 360px;
 
@@ -30,8 +30,8 @@ body {
 }
 
 .diagnalBox2 {
-    background-color: brown;
-    width: 400px;
+    background-color: #ffe2d1;
+    width: 420px;
     height: 340px;
     margin-top: -365px;
     margin-left: 1115px;
@@ -47,7 +47,7 @@ body {
     width: 989px;
     margin-left: 280px;
     margin-top: -347px;
-    box-shadow:  7px 0px brown;
+    box-shadow:  7px 0px #ffe2d1;
 
   
 
@@ -145,7 +145,7 @@ body {
 }
 
 .topnav1 {
-    background-color: brown;
+    background-color: #aa6e4c;
     overflow: hidden;
     width: 1400px;
 }
@@ -227,18 +227,39 @@ li a:hover:not(.active) {
 
 }
 
+.MainContainer{
+    background-color: #D9D9D9;
+    height: 2300px;
+    width: 1510px;
 
+    margin-top: 10px;
+    margin-left: 6px;
+    padding-left: 150px;
+    box-shadow: 1px 1px 2px 2px #898383
+}
+
+.SocialMedia{
+    background-color: #D9D9D9;
+    height: 630px;
+    width: 300px;
+    margin-top:10px;
+    margin-left: -100px;
+}
+
+.vlSocialMedia{
+    border-left: 1px solid white;
+  height: 780px;
+
+
+}
 
 .downloads {
 
     width: 200px;
     margin-left: 1305px;
     margin-bottom: 50px;
-
     background-color: rgba(150, 141, 141, 0.5);
 }
-
-
 
 .DownloadsHeading {
     margin-bottom: 1927px;
@@ -246,7 +267,6 @@ li a:hover:not(.active) {
     color: brown;
     font-weight: bolder;
     font-size: 25px;
-
 }
 
 .DownloadsContainer {
@@ -259,15 +279,16 @@ li a:hover:not(.active) {
 .containerNews {
 
     height: 350px;
-    width: 1300px;
-    background-color: #D9D9D9;
+    width: 1000px;
+  
+    margin-top: -5px;
 
 }
 
 .HeadingNews {
 
-    margin-top: 5px;
-    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: -130px;
     color: #BB3A3A;
 
     font-weight: bold;
@@ -285,11 +306,11 @@ li a:hover:not(.active) {
     font-size: 13px;
     font-style: normal;
     padding: 8px 10px;
-    margin-left: 1100px;
+    margin-left: 840px;
     border: #BB3A3A 2px solid;
     height: 40px;
     width: 100px;
-    margin-top: -65px;
+    margin-top: -50px;
 }
 
 .btn {
@@ -298,7 +319,7 @@ li a:hover:not(.active) {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #d41919;
+    background-color: #BB3A3A;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 12px 24px;
@@ -323,7 +344,7 @@ li a:hover:not(.active) {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #d41919;
+    background-color: #BB3A3A;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 5px 5px;
@@ -348,7 +369,7 @@ li a:hover:not(.active) {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #d41919;
+    background-color: #BB3A3A;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 5px 5px;
@@ -362,7 +383,7 @@ li a:hover:not(.active) {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #d41919;
+    background-color: #BB3A3A;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 5px 5px;
@@ -388,7 +409,7 @@ li a:hover:not(.active) {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #d41919;
+    background-color: #BB3A3A;
     color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 5px 5px;
@@ -437,6 +458,7 @@ li a:hover:not(.active) {
     width: 230px;
 
     border: #ffffff 5px solid;
+  margin-right: 0px;
 
 }
 
@@ -444,7 +466,9 @@ li a:hover:not(.active) {
     height: 200px;
     width: 230px;
 
-    margin-right: 20px;
+    margin-right: 10px;
+    
+    
     border: #ffffff 5px solid;
 }
 
@@ -461,13 +485,17 @@ li a:hover:not(.active) {
     width: 230px;
 
     border: #ffffff 5px solid;
+    padding-right: -10px;
 
 }
 
-.column {
+.columnGallery {
 
     padding-top: 10px;
-    margin-left: 50px;
+ 
+margin-left: -50px;
+    
+ 
 
 
 }
@@ -481,9 +509,11 @@ li a:hover:not(.active) {
 
 }
 
-.ContainerGallery {
+.ContainerAbout{
     height: 20px;
-    width: 490px;
+    width: 450px;
+    margin-top: -300px;
+    margin-left: -150px;
 
     /* 
     background-image: url("https://www.mining-technology.com/wp-content/uploads/sites/19/2022/07/Image-1-Tharisa-Mine.jpg"); */
@@ -501,7 +531,7 @@ li a:hover:not(.active) {
     width: 1000px;
     position: absolute;
     margin-top: -230px;
-    margin-left: 150px;
+    margin-left: 100px;
     padding-left: 180px;
     box-shadow: 2px 2px 2px 2px #766f6f;
 }
@@ -544,12 +574,12 @@ li a:hover:not(.active) {
 
 .HeadingGallery {
 
-    color: #F24E1E;
+    color: #BB3A3A;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
     font-style: normal;
-    margin-left: -150px;
+    margin-left:110px;
     margin-top: 10px;
 
 
@@ -588,7 +618,9 @@ div.scroll-container img {
 }
 
 
-.other {
+
+
+.Tourism {
     background-color: #ffffff;
     height: 100px;
 
@@ -597,12 +629,12 @@ div.scroll-container img {
 .ContainerTourism {
     background-color: #ffffff;
     height: 1450px;
-    width: 1470px;
+    width: 1500px;
     position: absolute;
-    margin-top: 90px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-left: -145px;
     padding-left: 150px;
-    box-shadow: 1px 1px 2px 2px #dedcdc;
+    box-shadow: 1px 1px 2px 2px #b6aaaa;
 }
 
 .LineTourism {
@@ -687,9 +719,10 @@ div.gallery {
 
     height: 590px;
     background-color: rgb(50, 49, 49);
-    width: 1510px;
+    width: 1520px;
     border-top: 1px solid #000000;
-    margin-top: 1850px;
+    margin-top: 1px;
+    margin-left: 5px;
 }
 
 .Line {
@@ -1089,6 +1122,8 @@ a:hover {
     left: 35%;
     margin-top: -100px;
 }
+
+
 
 
 
